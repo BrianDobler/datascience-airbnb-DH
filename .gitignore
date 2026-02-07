@@ -1,0 +1,22 @@
+cat << 'EOF' >> .gitignore
+
+# ===== DATA SCIENCE =====
+# Datasets grandes
+data/raw/
+data/processed/
+
+# Modelos entrenados (no van a Git)
+models/
+
+# Checkpoints de entrenamiento
+checkpoints/
+*.ckpt
+
+# Archivos temporales
+*.tmp
+*.bak
+
+# Jupyter Notebook outputs (opcional pero recomendado)
+.ipynb_checkpoints/
+
+EOF
