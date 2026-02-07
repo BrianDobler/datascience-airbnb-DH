@@ -3,8 +3,13 @@ Proyecto final de Data Science basado en datos de Airbnb desarrollado para el cu
 
 ## Datos
 
-Los datasets crudos completos (listings.csv, calendar.csv y reviews.csv) no se incluyen en este repositorio por su tamaño.
-Fueron provistos por Digital House y pueden descargarse desde:
+Los datasets crudos completos (listings.csv, calendar.csv y reviews.csv) no se incluyen en este repositorio por su tamaño. Los mismos Fueron provistos por Digital House.
+Para descargar los dataset de manera automáticamente, ejecutar:
+
+### pip install gdown
+### python src/download_data.py
+
+O bien descargarlos de:
 
 👉 https://drive.google.com/drive/folders/1xKTfaKZDYLadXDW8H-HKG8FZ6vXaLdul?usp=sharing
 
@@ -16,8 +21,3 @@ data/
     calendar.csv
     reviews.csv
 
-En caso de querer descargar los datos automáticamente, ejecutar:
-
-
-pip install gdown
-python src/download_data.py
