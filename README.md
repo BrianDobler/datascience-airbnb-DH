@@ -20,4 +20,3 @@ data/
     listings.csv
     calendar.csv
     reviews.csv
-
