@@ -55,20 +55,20 @@ data/
 
 datascience-airbnb-DH/
 │
-├── 📁 data/
+├── data/
 │   ├── raw/
 │   └── processed/
 │
-├── 📁 models/
+├── models/
 │
-├── 📁 notebooks/
+├── notebooks/
 │   ├── etapa_01_eda.ipynb
 │   ├── etapa_02_etl.ipynb
 │   ├── etapa_03_ml.ipynb
 │   ├── etapa_04_dl_mlp.ipynb
 │   └── etapa_04.1_dl_lstm.ipynb
 │
-├── 📁 src/
+├── src/
 │   ├── modeling/
 │   └── deep_learning/
 │
