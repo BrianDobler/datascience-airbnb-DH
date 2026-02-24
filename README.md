@@ -24,6 +24,7 @@ pip actualizado
 ## 📥 Clonar el repositorio
 
 git clone https://github.com/BrianDobler/datascience-airbnb-DH.git
+
 cd datascience-airbnb-DH
 
 ## 📦 Instalar dependencias
