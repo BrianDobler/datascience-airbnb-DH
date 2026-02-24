@@ -53,27 +53,8 @@ data/
 
 ## 📁 Estructura del proyecto 
 
-datascience-airbnb-DH/
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── models/
-│
-├── notebooks/
-│   ├── etapa_01_eda.ipynb
-│   ├── etapa_02_etl.ipynb
-│   ├── etapa_03_ml.ipynb
-│   ├── etapa_04_dl_mlp.ipynb
-│   └── etapa_04.1_dl_lstm.ipynb
-│
-├── src/
-│   ├── modeling/
-│   └── deep_learning/
-│
-├── requirements.txt
-└── README.md
+<img width="310" height="468" alt="image" src="https://github.com/user-attachments/assets/ff3ccb2a-662d-4488-9bb8-7d7a66182e4a" />
+
 
 ▶️ Orden de Ejecución
 
