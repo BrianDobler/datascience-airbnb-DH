@@ -1,2 +1,0 @@
-PROJECT_ROOT = Path().resolve().parents[0] 
-sys.path.append(str(PROJECT_ROOT))
