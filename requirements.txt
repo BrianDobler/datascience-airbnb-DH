@@ -1,7 +1,9 @@
-pandas
 numpy
-matplotlib
-seaborn
+pandas
 scikit-learn
+seaborn
+matplotlib
+xgboost
+torch
 gdown
 jupyter

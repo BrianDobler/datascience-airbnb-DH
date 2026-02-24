@@ -1,7 +1,36 @@
-# datascience-airbnb-DH
-Proyecto final de Data Science basado en datos de Airbnb desarrollado para el curso de Digital House. Incluye procesos de EDA y ETL para limpieza y transformación de datos, y la implementación de modelos de ML y Deep Learning orientados a analizar y predecir precios, demanda y patrones de comportamiento en las publicaciones de la plataforma.
+# 🏡 datascience-airbnb-DH
 
-## Datos
+Proyecto final de Data Science desarrollado en el marco del curso de Digital House.
+El objetivo es analizar el mercado de Airbnb y proponer recomendaciones de inversión basadas en análisis descriptivo y modelado predictivo.
+
+Incluye:
+
+📊 Análisis Exploratorio de Datos (EDA)
+
+🧹 Limpieza y Transformación (ETL)
+
+🤖 Modelos de Machine Learning
+
+🧠 Modelos de Deep Learning (MLP y LSTM)
+
+📈 Forecast de precios promedio diarios
+
+## Instalacion del proyecto
+🔧 Requisitos
+
+Python 3.10 o superior
+pip actualizado
+
+## 📥 Clonar el repositorio
+
+git clone https://github.com/BrianDobler/datascience-airbnb-DH.git
+cd datascience-airbnb-DH
+
+## 📦 Instalar dependencias
+
+### pip install -r requirements.txt
+
+## 📂 Descarga de los datos
 
 Los datasets crudos completos (listings.csv, calendar.csv y reviews.csv) no se incluyen en este repositorio por su tamaño. Los mismos Fueron provistos por Digital House.
 Para descargar los dataset de manera automáticamente, ejecutar:
@@ -20,3 +49,45 @@ data/
     listings.csv
     calendar.csv
     reviews.csv
+
+## 📁 Estructura del proyecto 
+
+datascience-airbnb-DH/
+│
+├── 📁 data/
+│   ├── raw/
+│   └── processed/
+│
+├── 📁 models/
+│
+├── 📁 notebooks/
+│   ├── etapa_01_eda.ipynb
+│   ├── etapa_02_etl.ipynb
+│   ├── etapa_03_ml.ipynb
+│   ├── etapa_04_dl_mlp.ipynb
+│   └── etapa_04.1_dl_lstm.ipynb
+│
+├── 📁 src/
+│   ├── modeling/
+│   └── deep_learning/
+│
+├── requirements.txt
+└── README.md
+
+▶️ Orden de Ejecución
+
+Para reproducir el análisis completo:
+
+1️⃣ etapa_01_eda.ipynb
+2️⃣ etapa_02_etl.ipynb
+3️⃣ etapa_03_ml.ipynb
+4️⃣ etapa_04_dl_mlp.ipynb
+5️⃣ etapa_04.1_dl_lstm.ipynb
+
+📌 Resultados Destacados
+
+✅ XGBoost optimizado fue el modelo con mejor desempeño para datos tabulares.
+
+📉 Se identificaron patrones de precio según tipo de propiedad y ubicación.
+
+📈 La LSTM permitió modelar la dinámica temporal y generar forecast a 7 días.
