@@ -5,25 +5,7 @@ import numpy as np
 import pydeck as pdk
 import plotly.graph_objects as go
 import os
-import streamlit as st
-import pkg_resources
 
-st.subheader("📦 Versiones de librerías")
-
-packages = [
-    "streamlit",
-    "pandas",
-    "numpy",
-    "scikit-learn",
-    "xgboost",
-    "joblib",
-    "pydeck",
-    "plotly"
-]
-
-versions = {pkg: pkg_resources.get_distribution(pkg).version for pkg in packages}
-
-st.table(versions)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # ─── PAGE CONFIG ────────────────────────────────────────────────────────────────
