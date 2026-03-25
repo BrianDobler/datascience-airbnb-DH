@@ -7,7 +7,7 @@ xgboost
 torch
 gdown
 jupyter
-streamlit
+streamlit>=1.32.0
 pydeck
 plotly
 joblib
