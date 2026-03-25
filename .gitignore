@@ -6,7 +6,7 @@ data/raw/
 data/processed/
 
 # Modelos entrenados (no van a Git)
-models/
+#models/
 
 # Checkpoints de entrenamiento
 checkpoints/
