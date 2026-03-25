@@ -4,6 +4,9 @@ import pandas as pd
 import numpy as np
 import pydeck as pdk
 import plotly.graph_objects as go
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # ─── PAGE CONFIG ────────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -15,12 +18,12 @@ st.set_page_config(
 
 # ─── LOAD MODELS ────────────────────────────────────────────────────────────────
 @st.cache_resource
-def load_models():
-    model     = joblib.load("../../models/xgb_pipeline_v2.pkl")
-    geo_map   = joblib.load("../../models/geo_map.pkl")
-    price_map = joblib.load("../../models/price_map.pkl")
-    return model, geo_map, price_map
 
+def load_models():
+    model = joblib.load(os.path.join(BASE_DIR, "../../models/xgb_pipeline_v2.pkl"))
+    geo_map = joblib.load(os.path.join(BASE_DIR, "../../models/geo_map.pkl"))
+    price_map = joblib.load(os.path.join(BASE_DIR, "../../models/price_map.pkl"))
+    return model, geo_map, price_map
 model, geo_map, price_map = load_models()
 T = dict(
         bg          = "#080b12",
