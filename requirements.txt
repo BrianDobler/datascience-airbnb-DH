@@ -1,13 +1,13 @@
 numpy
 pandas
-scikit-learn==1.5.2
+scikit-learn
 seaborn
 matplotlib
-xgboost==3.0.3
+xgboost
 torch
 gdown
 jupyter
-streamlit>=1.32.0
+streamlit
 pydeck
 plotly
 joblib
