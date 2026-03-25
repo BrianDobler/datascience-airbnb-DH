@@ -7,3 +7,7 @@ xgboost
 torch
 gdown
 jupyter
+streamlit
+pydeck
+plotly
+joblib
