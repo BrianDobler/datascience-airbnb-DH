@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 
 # ─── PAGE CONFIG ────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Airbnb · Price Intelligence",
+    page_title="Airbnb · Precios",
     page_icon="🏙️",
     layout="wide",
     initial_sidebar_state="collapsed"
