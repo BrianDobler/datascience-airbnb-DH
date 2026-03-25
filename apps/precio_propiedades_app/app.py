@@ -14,15 +14,11 @@ st.set_page_config(
 )
 
 # ─── LOAD MODELS ────────────────────────────────────────────────────────────────
-from pathlib import Path
-
-BASE = Path(__file__).parent.parent.parent
-
 @st.cache_resource
 def load_models():
-    model     = joblib.load(BASE / "models" / "xgb_pipeline_v2.pkl")
-    geo_map   = joblib.load(BASE / "models" / "geo_map.pkl")
-    price_map = joblib.load(BASE / "models" / "price_map.pkl")
+    model     = joblib.load("../../models/xgb_pipeline_v2.pkl")
+    geo_map   = joblib.load("../../models/geo_map.pkl")
+    price_map = joblib.load("../../models/price_map.pkl")
     return model, geo_map, price_map
 
 model, geo_map, price_map = load_models()
