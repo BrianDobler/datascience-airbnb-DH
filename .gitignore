@@ -18,5 +18,7 @@ checkpoints/
 
 # Jupyter Notebook outputs (opcional pero recomendado)
 .ipynb_checkpoints/
-
+.devcontainer/
+.vscode/
 EOF
+
